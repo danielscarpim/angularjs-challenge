@@ -26,47 +26,9 @@ a {
   padding-right: 15px;
 }
 
-.navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  background-color: #222;
-
-  &>a {
-    float: left;
-    color: lightgrey;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
-    height: 50px;
-  }
-
-  ul {
-    float: left;
-    padding: 0;
-    margin: 0;
-
-    li {
-      float: left;
-      position: relative;
-      display: block;
-
-      a {
-        color: white;
-        position: relative;
-        display: block;
-        padding: 15px;
-        line-height: 20px;
-      }
-      &.active a {
-        background-color: black;
-      }
-    }
-  }
-}
-
-.jumbotron {
+.intro {
   padding: 60px;
+  margin-top: 30px;
   margin-bottom: 30px;
   background-color: gainsboro;
   border-radius: 6px;
@@ -75,6 +37,10 @@ a {
 
 hr {
   clear: both;
+}
+
+img {
+  width: 168px;
 }
 
 /* Do not remove the comments below. It's the markers used by gulp-inject to inject
