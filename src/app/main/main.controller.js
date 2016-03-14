@@ -8,6 +8,7 @@
   /** @ngInject */
   function MainController() {
     var vm = this;
-    vm.creationDate = 1457520084885;
+    vm.title = "Welcome to the AngularJS Code Challenge";
+    vm.description = "This is the boilerplate project for the Angular JS challenge";
   }
 })();
