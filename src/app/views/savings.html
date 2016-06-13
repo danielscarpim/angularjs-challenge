@@ -1,0 +1,16 @@
+<div ng-controller="MainController">
+    <h1>Loading the content</h1>
+    <table ng-repeat="item in savingsMain">
+        <thead>
+        <tr>
+            <th>{{item.account_type}}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{item.amount}}</td>
+            <td><tr>{{item.date}}</tr><tr>{{item.maturity}}</tr></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

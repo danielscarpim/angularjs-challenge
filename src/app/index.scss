@@ -19,11 +19,65 @@ a {
 }
 
 .container {
-  width: 1170px;
+  //width: 200px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.content-wrapper{
+  float:left;
+  clear:both;
+  width:100%;
+}
+.sidebar{
+  width:30%;
+  float:left;
+}
+.right-content{
+  width:70%;
+  float:left;
+}
+.right-content table{
+  width:100%;
+}
+.mytable {
+  border: 1px solid lightgray;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+table.mytable td {
+  border: 1px solid lightgray;
+  margin: 0;
+}
+
+table.mytable td:first-child {
+  margin: 0;
+}
+
+
+
+.flexiblePanel{
+  width: 800px;
+  border-bottom:0;
+  height:auto;
+  // margin-right: auto;
+  // margin-left: auto;
+  // padding-left: 15px;
+  // padding-right: 15px;
+  
+}
+
+.create-account-btn-class{
+    background-color: skyblue;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: cursive;
+  
+  
 }
 
 .intro {
@@ -40,10 +94,67 @@ hr {
 }
 
 img {
-  width: 168px;
+  width: 168px; 
 }
 
 /* Do not remove the comments below. It's the markers used by gulp-inject to inject
    all your sass files automatically */
 // injector
 // endinjector
+
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+table {
+  border-spacing: 0;
+  width:100%;
+}
+td + td {
+  border-left:1px solid #eee;
+}
+td, th {
+  border-bottom:1px solid #eee;
+  background: #ddd;
+  color: #000;
+  padding: 10px 25px;
+}
+th {
+  height: 0;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: transparent;
+  border: none;
+  white-space: nowrap;
+}
+th div{
+  position: absolute;
+  background: transparent;
+  color: #fff;
+  padding: 9px 25px;
+  top: 0;
+  margin-left: -25px;
+  line-height: normal;
+  border-left: 1px solid #800;
+}
+th:first-child div{
+  border: none;
+}
+
+	.checkings_panel {
+		border:1px solid green;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.checkings_panel th {
+		border:1px solid green;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.checkings_panel td {
+		border:1px solid green;
+		padding:5px;
+	}
