@@ -26,25 +26,6 @@ $scope.$watch('savingsMain', function($scope){
         return $scope.savingsMain;
 });
 
-// $scope.savingsMain = [{
-//         "accountType": "Savings",
-//         "amount": "",
-//         "IBAN": "",
-//         "BIC":"",
-//         "date": "",
-//         "maturity": ""
-//       }];
-
-$scope.createAccount = function(){
-  
-    return ngDialog.open({
-      template: 'app/views/create-account-template.html',
-      className: 'ngDialog-theme-default',
-      scope: $scope
-    });
-  
-};  
-
 $scope.selectedAccountType = function(showAccount){
   console.log(showAccount);
   if(showAccount === "Savings"){
@@ -65,9 +46,6 @@ $scope.saveAccounts = function(){
     };
      
       $scope.savingsMain.push($scope.addToSavingsAccounts);
-     
-      
-      return $scope.savingsMain;
       
     }else{
        $scope.addToCheckingsAccounts = {
@@ -82,6 +60,7 @@ $scope.saveAccounts = function(){
       
     }
     
+    ngDialog.close();
     
   
 };

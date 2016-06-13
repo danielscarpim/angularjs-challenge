@@ -8,12 +8,14 @@ function includeTemplate($http, $compile, $templateCache){
            angular.element(document.getElementById("space-for-buttons"))
                 .append(
                     $compile(
-                        '<table>'+
+                        '<table style="background-color: yellow;">'+
                                 '<tr ng-repeat="item in savingsMain">'+
-                                '<td>'+
+                                '<td class="content_parent">'+
                                     '<table class="mytable" cellpadding="0" cellspacing="0">'+
                                     '<tr>'+
-                                        '<th colspan="2">{{item.account_type}}</th>'+
+                                        '<th colspan="2">'+
+                                        '<span class="th-left">{{item.account_type}}</span>'+
+                                         '<button class="th-right">X</button></th>'+
                                     '</tr>'+
                                     '<tr>'+
                                         '<td rowspan="2">{{item.amount}}</td>'+
