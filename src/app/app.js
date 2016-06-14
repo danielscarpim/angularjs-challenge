@@ -1,7 +1,7 @@
 angular
   .module('angularChallenge', [
     'ngRoute', 'ngDialog'
-  ]).service('HttpService',HttpService)
+  ])
   .controller('MainController', MainController)
   .service('SharedService', SharedService)
   .directive('includeTemplate', includeTemplate)
@@ -9,7 +9,7 @@ angular
       ) {
         $routeProvider
       .when('/', {
-        templateUrl: 'app/views/todo.html',
+        templateUrl: 'app/views/main.html',
         controllerAs: 'vm'
       })
       .otherwise({

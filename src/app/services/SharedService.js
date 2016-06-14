@@ -1,14 +1,14 @@
-  'use strict';
+'use strict';
 
- function SharedService() {
- return{
-        "accountType": "Savings",
-        "amount": "",
-        "IBAN": "",
-        "BIC":"",
-        "date": "",
-        "maturity": ""
-      };
- }
+function SharedService() {
+  return {
+    "accountType": "Savings",
+    "amount": "",
+    "IBAN": "",
+    "BIC": "",
+    "date": "",
+    "maturity": ""
+  };
+}
 
 

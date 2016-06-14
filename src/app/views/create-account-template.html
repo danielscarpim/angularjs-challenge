@@ -12,11 +12,11 @@
         
         <div ng-if='sharedService.accountType==="Checkings"'>
          <input type="text" name="amount_checkings" ng-model="sharedService.amount" placeholder="Amount"><br>
-        <input type="text" name="bic_checkings" ng-model="sharedService.bic" placeholder="BIC"><br>
-        <input type="text" name="iban_checkings" ng-model="sharedService.iban" placeholder="IBAN"><br>
+        <input type="text" name="bic_checkings" ng-model="sharedService.BIC" placeholder="BIC"><br>
+        <input type="text" name="iban_checkings" ng-model="sharedService.IBAN" placeholder="IBAN"><br>
         </div>
         <div class="ngdialog-buttons">
-        <button type="button" class="ngdialog-button ngdialog-button-secondary">Cancel</button>
-        <button type="submit" class="ngdialog-button ngdialog-button-primary" ng-click="saveAccounts()">Save</button>
+        <button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="closeDialog()">Cancel</button>
+        <button type="submit" class="ngdialog-button ngdialog-button-primary"  ng-click="saveAccounts()">Save</button>
     </form>
  </div>
