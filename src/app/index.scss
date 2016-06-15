@@ -77,6 +77,10 @@ table.mytable th span.th-left {
   color: black;
   height: 30px;
   text-align:left;
+  margin-top: 15px;
+    position: absolute;
+    float:left;
+    margin-left: -180px;
 }
 
 
@@ -86,6 +90,8 @@ table.mytable th button.th-right {
   height: 30px;
   margin-left:100px;
   background: gainsboro;
+  float:right;
+  
 }
 
 table.mytable td:first-child {
@@ -193,6 +199,10 @@ th:first-child div{
 		padding:5px;
 	}
   
+  table.mytable {
+     border-bottom: 2px solid rgb(52, 152, 219);   
+  }
+ 
   
   @-webkit-keyframes ngdialog-fadeout {
   0% {
