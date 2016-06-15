@@ -8,24 +8,33 @@
         <tbody>
           <tr>
             <td>
-              <button class="normal-btn-class" ng-click="setAccountType('allAccounts')" ng-model="allAccounts" class="ng-pristine ng-untouched ng-valid ng-empty">All</button>
+              <button ng-click="setAccountType('allAccounts')" ng-model="allAccounts" class="ng-pristine ng-untouched ng-valid ng-empty">All</button>
             </td>
           </tr>
 
           <tr>
             <td>
-              <button class="normal-btn-class" ng-click="setAccountType('savingsAccounts')" ng-model="savingsMain" class="ng-pristine ng-valid ng-not-empty ng-touched">Savings</button>
+              <button ng-click="setAccountType('savingsAccounts')" ng-model="savingsMain" class="ng-pristine ng-valid ng-not-empty ng-touched">Savings</button>
             </td>
           </tr>
           <tr>
             <td>
-              <button class="normal-btn-class" ng-click="setAccountType('checkingAccounts')" ng-model="checkingsMain" class="ng-pristine ng-untouched ng-valid ng-not-empty">Checkings</button>
+              <button ng-click="setAccountType('checkingAccounts')" ng-model="checkingsMain" class="ng-pristine ng-untouched ng-valid ng-not-empty">Checkings</button>
             </td>
           </tr>
           <tr>
             <td>
-              <button class="create-account-btn-class" type="button" ng-dialog="app/views/create-account-template.html" ng-dialog-data="" ng-dialog-class="ngdialog-theme-default" ng-dialog-scope="this" plain=f alse showClose=t rue closeByDocument=t rue closeByEscape=t
-                rue ng-dialog-show-close="false">New Account</button>
+              <button class="create-account-btn-class" 
+              type="button" 
+              ng-dialog="app/views/create-account-template.html" 
+              ng-dialog-data="" 
+              ng-dialog-class="ngdialog-theme-default" 
+              ng-dialog-scope="this" 
+              plain=false
+              showClose=true
+              closeByDocument=true
+              closeByEscape=true
+              ng-dialog-show-close="false">New Account</button>
             </td>
           </tr>
         </tbody>
