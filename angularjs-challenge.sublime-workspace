@@ -1,0 +1,969 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"user-picture	 _user-info.scss"
+			],
+			[
+				"un",
+				"unlocked	 _courses-list.scss"
+			],
+			[
+				"li",
+				"light-blue	 _banner.scss"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"light",
+				"light-blue	 _control-panel.scss"
+			],
+			[
+				"moda",
+				"modal-content	 _recent-activities.scss"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"lig",
+				"light-blue	 _control-panel.scss"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ac",
+				"activities-counter"
+			],
+			[
+				"di",
+				"disabled	 app.css"
+			],
+			[
+				"new",
+				"newActivities"
+			],
+			[
+				"cu",
+				"currentActivity"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"da",
+				"data-reveal-id"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ligh",
+				"light-blue	 _control-panel.scss"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"in",
+				"input	 element"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"ms-vi",
+				"ms-viewselector	 _sharepoint.scss"
+			],
+			[
+				"ms-view",
+				"ms-viewselectorhover	 _core-overrides.scss"
+			],
+			[
+				"ms-s",
+				"ms-splitbutton	 _core-overrides.scss"
+			],
+			[
+				"ms-m",
+				"ms-menubuttonactivehover	 _core-overrides.scss"
+			],
+			[
+				"opt",
+				"options-dropdown	 _control-panel.scss"
+			],
+			[
+				"ms-lis",
+				"ms-listviewtable	 _core-overrides.scss"
+			],
+			[
+				"ms-me",
+				"ms-menutoolbar	 _core-overrides.scss"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"border",
+				"border-spacing"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"insc",
+				"Inscrições"
+			],
+			[
+				"ion-",
+				"ion-plus	 _left-sidebar.scss"
+			],
+			[
+				"sli",
+				"slick"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"table",
+				"table-row"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"pro",
+				"progressBar"
+			],
+			[
+				"cl",
+				"closest"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"sun",
+				"sub-nav-1"
+			],
+			[
+				"sub",
+				"subNavOpen"
+			],
+			[
+				"ha",
+				"has-children"
+			],
+			[
+				"js",
+				"jshint"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"p",
+				"primary-color	 _courses-list.scss"
+			],
+			[
+				"th",
+				"thead	 element"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"tabs",
+				"tabs-content	 app.css"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"left",
+				"left-sidebar	 _left-sidebar.scss"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"com",
+				"compass"
+			],
+			[
+				"main",
+				"main-content	 app.css"
+			],
+			[
+				"activi",
+				"activity-type	 _recent-activities.scss"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"ri",
+				"right-sidebar	 _base.scss"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"footer",
+				"footer-container	 _base.scss"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"block",
+				"block-content	 app.css"
+			],
+			[
+				"full",
+				"full-width	 _base.scss"
+			],
+			[
+				"de",
+				"dest"
+			],
+			[
+				"bui",
+				"buildHtml"
+			],
+			[
+				"ht",
+				"buildHtml"
+			],
+			[
+				"bl",
+				"block	 _base.scss"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"b",
+				"browserSync"
+			],
+			[
+				"ca",
+				"carouselInit"
+			],
+			[
+				"$lo",
+				"$location	AngularJS"
+			],
+			[
+				"$loca",
+				"$location	AngularJS(DI)"
+			],
+			[
+				"gl",
+				"glyphicon-user	 styles.scss"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"la",
+				"langSelect"
+			],
+			[
+				"inter",
+				"interFace"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"lang",
+				"languages"
+			],
+			[
+				"$roo",
+				"$rootScope	AngularJS"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"json",
+				"json_a"
+			],
+			[
+				"arr",
+				"array_push"
+			],
+			[
+				"s",
+				"str_data"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"Locali",
+				"localidade"
+			],
+			[
+				"gra",
+				"gray-lighter	 styles.scss"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"ad",
+				"admin_name"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"l",
+				"loggedInUser"
+			],
+			[
+				"$r",
+				"$rootScope	AngularJS"
+			],
+			[
+				"lo",
+				"loggedIn"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"get",
+				"getInterfaceText"
+			],
+			[
+				"$s",
+				"$scope	AngularJS(DI)"
+			],
+			[
+				"use",
+				"user_name	 styles.scss"
+			],
+			[
+				"e",
+				"errorMsg"
+			],
+			[
+				"ge",
+				"getInterfaceText"
+			],
+			[
+				"admin",
+				"AdminController"
+			],
+			[
+				"login",
+				"loginController"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"user_",
+				"user_dealercode"
+			],
+			[
+				"us",
+				"user_dealercode"
+			],
+			[
+				"u",
+				"user_stars"
+			],
+			[
+				"update",
+				"updateData"
+			],
+			[
+				"aler",
+				"alertService"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ista",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: CDATA"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"paka",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/danielscarpim/Desktop/angularjs-challenge/angular-challenge.sublime-workspace",
+		"/Users/danielscarpim/Desktop/angularjs-challenge/src/index.html",
+		"/Users/danielscarpim/Desktop/angularjs-challenge/bower.json",
+		"/Users/danielscarpim/Desktop/angularjs-challenge/.tmp/serve/index.html",
+		"/Users/danielscarpim/Desktop/angularjs-challenge/package.json",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/allusers.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/layout/_user-header.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/style.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/package.json",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/layout/_right-sidebar.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_base.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/layout/_login.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/login.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/bower.json",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/modules/_banner.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/layout/_control-panel.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/class.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/course.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/dashboard.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/modules/_loader.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/course-default.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/course-enroll.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/course-locked.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/user-info.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/courses-list.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_settings.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/level/level.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/class-enroll.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/left-sidebar/left-sidebar.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/layout/_left-sidebar.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/modules/_library.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/header/header-admin.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/js/scripts/app.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/head.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/js/scripts.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/header/header-user.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/layout/_header.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_vars.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/library/file.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/library/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/library.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/all-users.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/recent-activities/activity.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/TrainingLocationRegister.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/TrainingLocationRegister.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/_TrainingLocationRegister.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/recent-activities/recent-activities.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/form.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/bower_components/foundation/js/foundation/foundation.reveal.js",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/index.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/regionais/campinas.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/regionais/sao-paulo.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/regionais/rio-de-janeiro.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/regionais/porto-alegre.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/regionais/recife.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/regionais/brasilia.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/dashboard.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/regionais/belo-horizonte.html",
+		"/Volumes/PUBLICO/ANGELO/Suzuki/dist/admin/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_core-overrides.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_sharepoint.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/_form.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/dist/admin/form.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/lists/form.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/lists/dispform.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/lists/newform.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_tables-overrides.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/modules/_user-info.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/layout/_footer.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_core.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/js/sharepoint/non_ie.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/js/sharepoint/init.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/js/sharepoint/core.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/footer.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/dist/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/dist/pages/master.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/dist/admin/dashboard.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/modules/_courses-list.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/master.html",
+		"/Users/danielscarpim/Downloads/custom.master",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/sharepoint/default.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/sharepoint/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/dist/sharepoint/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/sharepoint/default.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/header/user-dropdown.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/Gruntfile.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/elearning.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/modules/_recent-activities.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/regionais/recife.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/regionais/rio-de-janeiro.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/regionais/sao-paulo.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/regionais/porto-alegre.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/regionais/belo-horizonte.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/regionais/campinas.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/regionais/brasilia.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/widgets/it-chart-regional.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/widgets/it-chart.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/header-admin.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/header-user.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/admin/dashboard.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/widgets/levels-chart.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/js/scripts/charts-theme.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/header.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/banner.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/regional.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/js/app.js",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/recent-course.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/courses-list/class-header.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/bower_components/compass-mixins/lib/compass/css3/_images.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/app.scss",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/left-sidebar/link.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard/widget.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/modules/_dashboard.scss",
+		"/Users/danielscarpim/Desktop/regisbike/scotch-box/public/.git/config",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/modules/dashboard.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/pages/templates/layout/left-sidebar.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/layout/header.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/index.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/layout/head.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/layout/left-sidebar.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/admin.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/modules/user-info.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/modules/courses-list/courses-list.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/modules/courses-list/course.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/templates/layout/footer.html",
+		"/Users/danielscarpim/Desktop/TMS Hyundai/tms_hyundai/scss/_fonts.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\vivaparaiso"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fade-out($gray,0.5)",
+			"fade-out($primary-color,0.5)",
+			"360",
+			"medium",
+			"course-info",
+			"red",
+			"Scripts",
+			"anim",
+			"bg",
+			"fade",
+			"http://localhost:3000",
+			"http://localhost:3000/",
+			"button",
+			"13",
+			"ms-MenuUIIcon",
+			"ms-selectedt",
+			"viewselector",
+			"ms-v",
+			"ms-view",
+			"ms-views",
+			"menuitem",
+			"ms-toolbar",
+			"ms-gb",
+			"underline",
+			"ms-WPBody",
+			"font-family:",
+			"font-family: verdana,arial,helvetica,sans-serif;",
+			"h4",
+			"font-size",
+			"font-family:Verdana,Arial,Sans-Serif;",
+			"font-family",
+			"font-family:Verdana,serif;",
+			"font-family",
+			"font-family:arial;",
+			"font-family",
+			"ms-alt",
+			"ms-selected",
+			".ms-vb2",
+			".ms-listviewtable .ms-vb2, .ms-summarystandardbody .ms-vb2",
+			"font-family:Verdana,sans-serif;",
+			"font-family:tahoma,sans-serif;",
+			"font-family:tahoma;",
+			"font-family:verdana;",
+			"/Style%20Library",
+			"ms-WPH",
+			"@include font",
+			"dark-blue",
+			"admin",
+			"div",
+			"08",
+			"20/11/2015",
+			"start",
+			"');\n",
+			"sub-nav",
+			"sub-nav-2",
+			"sub-nav",
+			"h2",
+			"warning-color",
+			"light-blue",
+			"ionicos",
+			"modernh-bold-webfont",
+			"light",
+			"HelveticaNeueCondensed/HelveticaNeueLTStd-Cn",
+			"light-gray",
+			"language",
+			"fonts",
+			"FrutigerLTStd-Bold",
+			"FrutigerLTStd-Roman",
+			"h1",
+			"title_delete",
+			"adminLogin",
+			"userLogin",
+			"user_starsid",
+			"user_username",
+			"listData",
+			"users",
+			"wscode",
+			"saveStatus",
+			"dlr_id",
+			"locationsids",
+			"dealerscodes",
+			"dealerssids",
+			"key",
+			"ng-class=\"{{key}}\"",
+			"user",
+			"name",
+			"Name",
+			"name",
+			"user",
+			"user_id",
+			"stars",
+			"tD",
+			"td",
+			"th",
+			"container",
+			"modalService",
+			"dealerList",
+			"dealer-list",
+			"dealer",
+			"dealer.",
+			"user",
+			"User",
+			"user",
+			"user.",
+			"user",
+			"saveStatus",
+			"this",
+			"currentObject[type]",
+			"Users",
+			"users",
+			"user",
+			"td",
+			"user",
+			"error_msg",
+			"someArray",
+			"'",
+			"sentData",
+			"data",
+			"return",
+			"row",
+			"index",
+			"editable",
+			"index",
+			"target",
+			"user",
+			"span",
+			"ranking",
+			"Messages"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dark-blue",
+			"dark-orange",
+			"light-blue",
+			"dark-blue",
+			"dark-orange",
+			"light-blue",
+			"light-gray",
+			"dark-blue"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 50.0
+	},
+	"output.sftp":
+	{
+		"height": 125.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"skin/frontend/regisbike/default/scss/layout/_header.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true
+}
