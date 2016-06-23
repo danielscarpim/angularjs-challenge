@@ -4,27 +4,52 @@
   </div>
   <div class="content-wrapper">
     <div class="sidebar">
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <button ng-click="setAccountType('allAccounts')" ng-model="allAccounts" class="ng-pristine ng-untouched ng-valid ng-empty">All</button>
-            </td>
-          </tr>
+      <ul class="filter">
+        <li>
+          <button ng-click="setAccountType('allAccounts')" ng-model="allAccounts" class="ng-pristine ng-untouched ng-valid ng-empty">All</button>
+        </li>
+        <li>
+          <button ng-click="setAccountType('savingsAccounts')" ng-model="savingsMain" class="ng-pristine ng-valid ng-not-empty ng-touched">Savings</button>
+        </li>
+        <li>
+          <button ng-click="setAccountType('checkingAccounts')" ng-model="checkingsMain" class="ng-pristine ng-untouched ng-valid ng-not-empty">Checkings</button>
+        </li>
+      </ul>
+    </div>
+    <div class="right-content">
 
-          <tr>
-            <td>
-              <button ng-click="setAccountType('savingsAccounts')" ng-model="savingsMain" class="ng-pristine ng-valid ng-not-empty ng-touched">Savings</button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button ng-click="setAccountType('checkingAccounts')" ng-model="checkingsMain" class="ng-pristine ng-untouched ng-valid ng-not-empty">Checkings</button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button class="create-account-btn-class" 
+        <ul id="savingsHtml">
+          <li ng-repeat="item in accounts" ng-if="item.account_type == 'Savings'">
+            <div class="header">
+                <span class="th-left">{{item.account_type}}</span>
+                <button class="th-right" ng-click="deleteAccount(item)">X</button>
+            </div>
+            <div class="content">
+              <p>{{item.amount}}</p>
+              <p>{{item.date}}</p>
+              <p>{{item.maturity}}</p>
+            </div>
+          </li>
+        </ul>
+
+        <ul id="checkingsHtml">
+          <li ng-repeat="item in accounts" ng-if="item.account_type == 'Checkings'">
+            <div class="header">
+                <span class="th-left">{{item.account_type}}</span>
+                <button class="th-right" ng-click="deleteAccount(item)">X</button>
+            </div>
+            <div class="content">
+              <p>{{item.amount}}</p>
+              <p>{{item.BIC}}</p>
+              <p>{{item.IBAN}}</p>
+            </div>
+          </li>
+        </ul>
+
+      <div id="savingsTemplate" templateurl="app/views/savings.html" ng-show="showSavings" include-template=""></div>
+      <div id="checkingsTemplate" templateurl="app/views/checkings.html" ng-show="showCheckings" include-template=""></div>
+
+      <button class="create-account-btn-class" 
               type="button" 
               ng-dialog="app/views/create-account-template.html" 
               ng-dialog-data="" 
@@ -35,14 +60,6 @@
               closeByDocument=true
               closeByEscape=true
               ng-dialog-show-close="false">New Account</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="right-content">
-      <div id="savingsTemplate" templateurl="app/views/savings.html" ng-show="showSavings" include-template=""></div>
-      <div id="checkingsTemplate" templateurl="app/views/checkings.html" ng-show="showCheckings" include-template=""></div>
 
     </div>
   </div>

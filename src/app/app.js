@@ -1,9 +1,10 @@
 angular
   .module('angularChallenge', [
-    'ngRoute', 'ngDialog'
+    'ngRoute', 'ngDialog', 'ngStorage'
   ])
   .controller('MainController', MainController)
   .service('SharedService', SharedService)
+  .service('StorageService', StorageService)
   .directive('includeTemplate', includeTemplate)
   .config(['$routeProvider', function($routeProvider
       ) {
