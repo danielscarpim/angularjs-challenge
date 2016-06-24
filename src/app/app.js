@@ -4,7 +4,7 @@ angular
   ])
   .controller('MainController', MainController)
   .service('SharedService', SharedService)
-  .service('StorageService', StorageService)
+  .factory('StorageService', StorageService)
   .directive('includeTemplate', includeTemplate)
   .config(['$routeProvider', function($routeProvider
       ) {

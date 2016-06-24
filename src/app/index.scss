@@ -10,139 +10,23 @@
   padding: 0.2em 0;
 }
 
+// vars
+
+$global-padding: 20px;
+$white: #fff;
+$black: #000;
+$blue: #005488;
+$orange: #F56635;
+$light-gray: #ececec;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+
 body {
   margin: 0;
+  font-family: "Helvetica-neue","helvetica",arial, sans-serif;
+  font-size: 16px;
+  color: lighten($black,20);
 }
-
-a {
-  text-decoration: none;
-}
-
-.page-header{
-  margin-left:8%;
-  width: 10%;
-}
-.page-header h1{
-  color: #3498db;
-  text-shadow: 1px 1px 0px #263849;
-}
-
-.container {
-  //width: 200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.content_parent{
-    visibility: block;
-    padding:0; 
-}
-
-
-
-.content-wrapper{
-  float:left;
-  background-color: transparent;
-  clear:both;
-  width:80%;
-}
-.sidebar{
-  width:29%;
-  margin-right: 10px;
-  float:left;
-  margin-left: 10%;
-}
-.right-content{
-  width: 40%;
-  float: left;
-  margin-right: 20%;
-}
-.right-content table{
-  width:100%;
-}
-.mytable {
-  //border: 1px solid lightgray;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-table.mytable td {
-    border: 0;
-    margin: 0;
-}
-table.mytable th  {
-  border-bottom: 1px solid lightgray;
-  border-top: 1px solid lightgray;
-  
-  margin: 0;
-}
-table.mytable th span.th-left {
-  color: black;
-  height: 30px;
-  text-align:left;
-  margin-top: 15px;
-    position: absolute;
-    float:left;
-    margin-left: -180px;
-}
-
-
-
-button.th-right {
-  border: 1px solid;
-    border-radius: 4px;
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-right: 5px;
-  margin-left:100px;
-  background-color: gainsboro;
-  float:right;
-  color:black;
-  
-}
-
-table.mytable td:first-child {
-  margin: 0;
-}
-
-
-
-.flexiblePanel{
-  width: 800px;
-  border-bottom:0;
-  height:auto;
-  // margin-right: auto;
-  // margin-left: auto;
-  // padding-left: 15px;
-  // padding-right: 15px;
-  
-}
-
-
-.intro {
-  padding: 60px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: gainsboro;
-  border-radius: 6px;
-  text-align: center;
-}
-
-hr {
-  clear: both;
-}
-
-img {
-  width: 168px; 
-}
-
-/* Do not remove the comments below. It's the markers used by gulp-inject to inject
-   all your sass files automatically */
-// injector
-// endinjector
 
 html, body{
   margin:0;
@@ -150,115 +34,287 @@ html, body{
   height:100%;
 }
 
-table {
-  border-spacing: 0;
-  width:100%;
-}
-td + td {
-  border-left:1px solid #eee;
-}
-td, th {
-  color: #000;
+a {
+  text-decoration: none;
 }
 
-th {
-  height: 0;
-  line-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  color: transparent;
-  border: none;
-  white-space: nowrap;
-}
-th div{
-  position: absolute;
-  background: transparent;
-  color: #fff;
-  padding: 9px 25px;
-  top: 0;
-  margin-left: -25px;
-  line-height: normal;
-  border-left: 1px solid #800;
-}
-th:first-child div{
-  border: none;
+a, button, input, select {
+  outline: none;
 }
 
-	.checkings_panel {
-		border:1px solid green;
-		border-collapse:collapse;
-		padding:5px;
-	}
-	.checkings_panel th {
-		border:1px solid green;
-		padding:5px;
-		background:#F0F0F0;
-	}
-	.checkings_panel td {
-		border:1px solid green;
-		padding:5px;
-	}
-  
-  table.mytable {
-     border-bottom: 2px solid rgb(236, 240, 241);
-     margin-bottom: 5px;  
-     background-color: rgb(236, 240, 241);
-    
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  background: $white;
+  padding: $global-padding/2 0;
+  border-bottom: 1px solid $blue;
+  h1 {
+    margin: 0;
   }
- tr:nth-of-type(2n) table.mytable{
-   background-color: rgb(189, 195, 199);
- }
- table.mytable td{
-   padding:5px;
- }
- 
- .create-account-btn-class {
-  position: relative;
-  vertical-align: top;
-  width: 100%;
-  height: 45px;
-  padding: 0;
-  font-size: 14px;
-  color: white;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-  background: #3498db;
-  border: 0;
-  border-bottom: 2px solid #2a8bcc;
-  cursor: pointer;
-  -webkit-box-shadow: inset 0 -2px #2a8bcc;
-  box-shadow: inset 0 -2px #2a8bcc;
-}
-.create-account-btn-class:active {
-  top: 1px;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 
-.normal-btn-class {
-  position: relative;
-  vertical-align: top;
-  width: 100%;
-  height: 45px;
-  padding: 0;
+.content-wrapper {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 $global-padding;
+}
+
+.section-title {
+  color: $dark-gray;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.button {
+  background: lighten($blue,10);
+  border: none;
+  border-bottom: 3px solid $blue;
+  color: $white;
   font-size: 14px;
-  color: white;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-  background: #34495e;
-  border: 0;
-  border-bottom: 2px solid #263849;
+  padding: $global-padding/2 $global-padding;
+  text-transform: uppercase;
   cursor: pointer;
-  -webkit-box-shadow: inset 0 -2px #263849;
-  box-shadow: inset 0 -2px #263849;
+  &:hover {
+
+  }
 }
-.normal-btn-class:active {
-  top: 1px;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+
+.cancel-button {
+  background: lighten($orange,10);
+  border-bottom: 3px solid $orange;
 }
+
+.account-header {
+  overflow: hidden;
+  .section-title {
+    float: left;
+  }
+}
+
+.create-account-button {
+  float: right;
+  margin-top: 12.5px;
+  &:hover {
+    background: $blue;
+    border-bottom: 3px solid darken($blue,10);
+  }
+  .icon {
+    background: $white;
+    color: $orange;
+    display: inline-block;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+}
+
+.content-header {
+  background: $blue;
+  padding: $global-padding 0;
+  .balance {
+    width: 66.66%;
+    margin-left: 33.33%;
+    color: $white;
+    font-size: 30px;
+  }
+}
+
+.sidebar, .right-content {
+  float: left;
+}
+
+.sidebar {
+  width: 33.33%;
+  box-sizing: border-box;
+  padding-right: $global-padding;
+}
+
+.filter {
+  border-top: 1px solid $light-gray;
+  li {
+    border-bottom: 1px solid $light-gray;
+    button {
+      width: 100%;
+      padding: $global-padding/2 $global-padding;
+      background: $white;
+      border: none;
+      font-size: 14px;
+      text-align: left;
+      cursor: pointer;
+      position: relative;
+      color: $medium-gray;
+      &:hover {
+        color: $blue;
+      }
+      &.active {
+        color: $orange;
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 5px;
+          background: $blue;
+
+        }
+      }
+    }
+  }
+}
+
+.right-content {
+  width: 66.66%;
+}
+
+.account {
+  border: 1px solid $light-gray;
+  margin-bottom: $global-padding;
+  box-shadow: 0 1px 2px $light-gray;
+  .header, .content {
+    padding: $global-padding;
+  }
+  .header {
+    border-top: 3px solid $orange;
+    padding: $global-padding/2 $global-padding 0;
+    text-transform: uppercase;
+    color: $blue;
+    font-weight: bold;
+    h3 {
+      margin: 0;
+      padding-bottom: $global-padding/2;
+      border-bottom: 1px solid $light-gray;
+    }
+    .delete-button {
+      float: right;
+      border: none;
+      background: none;
+      color: $blue;
+      cursor: pointer;
+      font-weight: bold;
+      &:hover {
+        color: $white;
+        background: $blue;
+      }
+    }
+  }
+  .content {
+    overflow: hidden;
+  }
+  .amount, .details {
+    float: left;
+  }
+  .amount {
+    width: 40%;
+    font-size: 30px;
+    color: $orange;
+    .property {
+      font-size: 10px;
+      line-height: 10px;
+      color: $dark-gray;
+      margin-bottom: 5px;
+    }
+  }
+  .details {
+    width: 60%;
+    font-size: 14px;
+    p {
+      margin: 5px 0;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.ngdialog-content {
+  background: none;
+}
+
+.create-account {
+  padding: $global-padding;
+  background: $white;
+
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid $light-gray;
+    background: $white;
+  }
+
+  select {
+    background: $blue;
+    color: $white;
+    height: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .content-header {
+    .balance {
+      width: 100%;
+      margin-left: 0;
+    }
+  } 
+  .sidebar, .right-content {
+    float: none;
+    width: 100%;
+  }
+  .sidebar {
+    padding-right: 0;
+    .section-title {
+      display: none;
+    }
+  }
+  .filter {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid $light-gray;
+    li {
+      float: left;
+      width: 33.33%;
+      button {
+        text-align: center;
+        &.active {
+          &:before {
+            top: inherit;
+            height: 5px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .account-header {
+    .section-title {
+      float: none;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .create-account-button {
+      float: none;
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+}
+
+/* Do not remove the comments below. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+// injector
+// endinjector
  
   
   @-webkit-keyframes ngdialog-fadeout {

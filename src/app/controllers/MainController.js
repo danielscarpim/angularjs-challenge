@@ -2,13 +2,15 @@
 
 function MainController($scope, SharedService, ngDialog, StorageService) {
 
-  $scope.account_type_selected = "Savings";
+  $scope.account_type_selected = "Checking";
   $scope.sharedService = SharedService;
-  //$scope.savingsMain = StorageService.getSavings();
-  //$scope.checkingsMain = StorageService.getCheckings();
-  $scope.addToCheckingsAccounts = {};
-  $scope.addToSavingsAccounts = {};
-  $scope.accounts = 
+
+  $scope.showAccounts = "All";
+
+  $scope.filterAccounts = function(type) {
+    $scope.showAccounts = type;
+  }
+
 
   $scope.getAccounts = function() {
     $scope.accounts = StorageService.getAccounts();
@@ -17,72 +19,51 @@ function MainController($scope, SharedService, ngDialog, StorageService) {
 
   $scope.getAccounts();
 
-  //console.log($scope.savingsMain,$scope.checkingsMain);
+  $scope.getBalance = function() {
+    var balance = 0;
+    angular.forEach($scope.accounts,function(key,value){
+      balance = balance+Number(key.amount);
+    });
+    $scope.balance = balance;
+    console.log(balance)
+  }
 
-  $scope.setAccountType = function (type) {
-    if (type === "allAccounts") {
-      $scope.showSavings = true;
-      $scope.showCheckings = true;
-    } else if (type === "savingsAccounts") {
-      $scope.showSavings = true;
-      $scope.showCheckings = false;
-    } else if (type === "checkingAccounts") {
-      $scope.showSavings = false;
-      $scope.showCheckings = true;
-    }
-    $scope.account_type_selected = type;
-  };
-
-  // $scope.$watch('savingsMain', function ($scope) {
-  //   return $scope.savingsMain;
-  // });
-
-  $scope.selectedAccountType = function (showAccount) {
-    console.log(showAccount);
-    if (showAccount === "Savings") {
-      $scope.sharedService.accountType = "Savings";
-    } else {
-      $scope.sharedService.accountType = "Checkings";
-    }
-  };
+  $scope.getBalance();
 
 
   $scope.saveAccounts = function () {
+    var newAccount = {};
     if ($scope.sharedService.accountType === "Savings") {
-      $scope.addToSavingsAccounts = {
+      newAccount = {
         "account_type": $scope.sharedService.accountType,
         "amount": $scope.sharedService.amount,
         "date": $scope.sharedService.date,
         "maturity": $scope.sharedService.maturity
       };
-      $scope.showSavings = true;
-      StorageService.addSavings($scope.addToSavingsAccounts);
+      $scope.showAccounts = "All";
+      StorageService.addAccount(newAccount);
+      $scope.getBalance();
 
     } else {
-      $scope.addToCheckingsAccounts = {
+      newAccount = {
         "account_type": $scope.sharedService.accountType,
         "amount": $scope.sharedService.amount,
         "bic": $scope.sharedService.BIC,
         "iban": $scope.sharedService.IBAN
       };
-      $scope.showCheckings = true;
-      StorageService.addCheckings($scope.addToCheckingsAccounts);
+      $scope.showAccounts = "All";
+      StorageService.addAccount(newAccount);
+      $scope.getBalance();
 
     }
     ngDialog.close();
 
   };
 
-  // $scope.deleteDataFromSharedService = function (accountType, item) {
-  //   if (accountType === "Savings") {
-  //     $scope.savingsMain = _.without($scope.savingsMain, _.findWhere($scope.savingsMain, { date: item }));
-  //   } else if (accountType === "Checkings") {
-  //     $scope.checkingsMain = _.without($scope.checkingsMain, _.findWhere($scope.checkingsMain, { bic: item }));
-  //   }
-  // };
 
   $scope.deleteAccount = function(item) {
     StorageService.deleteAccount(item);
+    $scope.getBalance();
   }
 
   $scope.closeDialog = function () {
@@ -90,7 +71,6 @@ function MainController($scope, SharedService, ngDialog, StorageService) {
   };
 
   $scope.accountTypeModel = [];
-
 
   $scope.prop = {
     "type": "select",

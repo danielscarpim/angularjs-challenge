@@ -1,0 +1,53 @@
+<ul>
+    <li ng-repeat="item in accounts | filter:{account_type:'Savings'}" class="account" ng-if="showAccounts=='Savings' || showAccounts=='All'">
+
+        <div class="header">
+            <h3>
+            	{{item.account_type}}
+            	<button class="delete-button" ng-click="deleteAccount(item)">X</button>
+            </h3>
+        </div>
+        <div class="content">
+
+	        <div class="amount">
+	        	<p class="property">Amount</p>
+	            <p>{{item.amount | number:2 }} €</p>
+	        </div>
+
+	        <div class="details">
+
+	            <p>Date: {{item.date}}</p>
+	            <p>Maturity: {{item.maturity}}</p>
+
+	        </div>
+
+	    </div>
+
+    </li>
+
+    <li ng-repeat="item in accounts | filter:{account_type:'Checking'}" class="account" ng-if="showAccounts == 'Checking' || showAccounts=='All'">
+
+        <div class="header">
+            <h3>
+            	{{item.account_type}}
+            	<button class="delete-button" ng-click="deleteAccount(item)">X</button>
+            </h3>
+        </div>
+        <div class="content">
+
+	        <div class="amount">
+	        	<p class="property">Amount</p>
+	            <p>{{item.amount | number:2 }} €</p>
+	        </div>
+
+	        <div class="details">
+
+	            <p>BIC: {{item.BIC}}</p>
+	            <p>IBAN: {{item.IBAN}}</p>
+
+	        </div>
+	    </div>
+
+    </li>
+
+</ul>

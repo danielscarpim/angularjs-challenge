@@ -2,8 +2,7 @@
 
 function SharedService() {
   return {
-    "accountType": "Savings",
-    "id": "",
+    "accountType": "Checkings",
     "amount": "",
     "IBAN": "",
     "BIC": "",
